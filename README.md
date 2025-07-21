@@ -1,4 +1,4 @@
-🎬🎮 Entertainment Booking System
+🎬🎮 Book My Fun
 A web-based Entertainment Booking System that allows users to browse and book movies and games seamlessly. Developed using Java Servlets, JSP, and PostgreSQL database in NetBeans IDE, this project showcases practical implementation of full-stack Java web development with user authentication and admin management functionalities.
 
 🚀 Features
