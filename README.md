@@ -117,14 +117,13 @@ graph LR
 <div align="center">
 
 ### System Flow
-
 ```mermaid
 flowchart TD
-    subgraph Client["🖥️ Client Layer"]
+    subgraph Client["🖥️ CLIENT LAYER"]
         A[Web Browser]
     end
     
-    subgraph View["🎨 View Layer"]
+    subgraph View["🎨 VIEW LAYER"]
         B[JSP Pages]
         B1[Login/Signup]
         B2[Booking Pages]
@@ -132,21 +131,21 @@ flowchart TD
         B --> B1 & B2 & B3
     end
     
-    subgraph Controller["⚙️ Controller Layer"]
+    subgraph Controller["⚙️ CONTROLLER LAYER"]
         C[ControllerServlet]
         C1{Route Handler}
         C --> C1
     end
     
-    subgraph Business["💼 Business Layer"]
-        D[DBHelper - DAO]
-        D1[User Ops]
-        D2[Booking Ops]
-        D3[Admin Ops]
+    subgraph Business["💼 BUSINESS LAYER"]
+        D[DBHelper DAO]
+        D1[User Operations]
+        D2[Booking Operations]
+        D3[Admin Operations]
         D --> D1 & D2 & D3
     end
     
-    subgraph Model["📦 Model Layer"]
+    subgraph Model["📦 MODEL LAYER"]
         E[POJOs]
         E1[User]
         E2[Movie/Game]
@@ -154,7 +153,7 @@ flowchart TD
         E --> E1 & E2 & E3
     end
     
-    subgraph Database["🗄️ Database Layer"]
+    subgraph Database["🗄️ DATABASE LAYER"]
         F[(PostgreSQL)]
     end
     
@@ -164,41 +163,114 @@ flowchart TD
     D --> E
     E --> F
     
-    style Client fill:#E3F2FD,stroke:#1976D2,stroke-width:3px
-    style View fill:#F3E5F5,stroke:#7B1FA2,stroke-width:3px
-    style Controller fill:#FFF3E0,stroke:#F57C00,stroke-width:3px
-    style Business fill:#E8F5E9,stroke:#388E3C,stroke-width:3px
-    style Model fill:#FCE4EC,stroke:#C2185B,stroke-width:3px
-    style Database fill:#E0F2F1,stroke:#00796B,stroke-width:3px
+    style Client fill:#E3F2FD,stroke:#1976D2,stroke-width:4px,color:#000
+    style View fill:#F3E5F5,stroke:#7B1FA2,stroke-width:4px,color:#000
+    style Controller fill:#FFF3E0,stroke:#F57C00,stroke-width:4px,color:#000
+    style Business fill:#E8F5E9,stroke:#388E3C,stroke-width:4px,color:#000
+    style Model fill:#FCE4EC,stroke:#C2185B,stroke-width:4px,color:#000
+    style Database fill:#E0F2F1,stroke:#00796B,stroke-width:4px,color:#000
+    style A fill:#fff,stroke:#1976D2,stroke-width:2px,color:#000
+    style B fill:#fff,stroke:#7B1FA2,stroke-width:2px,color:#000
+    style B1 fill:#fff,stroke:#7B1FA2,stroke-width:1px,color:#000
+    style B2 fill:#fff,stroke:#7B1FA2,stroke-width:1px,color:#000
+    style B3 fill:#fff,stroke:#7B1FA2,stroke-width:1px,color:#000
+    style C fill:#fff,stroke:#F57C00,stroke-width:2px,color:#000
+    style C1 fill:#fff,stroke:#F57C00,stroke-width:2px,color:#000
+    style D fill:#fff,stroke:#388E3C,stroke-width:2px,color:#000
+    style D1 fill:#fff,stroke:#388E3C,stroke-width:1px,color:#000
+    style D2 fill:#fff,stroke:#388E3C,stroke-width:1px,color:#000
+    style D3 fill:#fff,stroke:#388E3C,stroke-width:1px,color:#000
+    style E fill:#fff,stroke:#C2185B,stroke-width:2px,color:#000
+    style E1 fill:#fff,stroke:#C2185B,stroke-width:1px,color:#000
+    style E2 fill:#fff,stroke:#C2185B,stroke-width:1px,color:#000
+    style E3 fill:#fff,stroke:#C2185B,stroke-width:1px,color:#000
+    style F fill:#fff,stroke:#00796B,stroke-width:2px,color:#000
 ```
 
 ### Request-Response Cycle
-
 ```mermaid
 sequenceDiagram
     autonumber
-    actor User
-    participant JSP as 📄 JSP
-    participant Servlet as ⚙️ Servlet
+    participant User as 👤 User
+    participant JSP as 📄 JSP Page
+    participant Servlet as ⚙️ ControllerServlet
     participant DAO as 💼 DBHelper
-    participant DB as 🗄️ Database
+    participant DB as 🗄️ PostgreSQL
     
-    User->>JSP: Submit Form
+    User->>JSP: Submit Form Data
+    activate JSP
     JSP->>Servlet: HTTP POST Request
+    deactivate JSP
+    activate Servlet
     Servlet->>Servlet: Parse Parameters
-    Servlet->>DAO: Call Business Method
+    Servlet->>DAO: Call DAO Method
+    deactivate Servlet
+    activate DAO
     DAO->>DB: Execute SQL Query
+    activate DB
     DB-->>DAO: Return ResultSet
+    deactivate DB
     DAO-->>Servlet: Return Java Object
+    deactivate DAO
+    activate Servlet
     Servlet->>Servlet: Set Session Attributes
     Servlet->>JSP: Forward/Redirect
-    JSP-->>User: Render Response
+    deactivate Servlet
+    activate JSP
+    JSP-->>User: Render HTML Response
+    deactivate JSP
     
-    Note over User,DB: Complete request cycle in ~100-200ms
+    Note over User,DB: Average Response Time: 100-200ms
+```
+
+### Architecture Layers
+```mermaid
+graph TB
+    subgraph P["PRESENTATION LAYER"]
+        direction LR
+        P1[Login.jsp]
+        P2[BookMovie.jsp]
+        P3[AdminControls.jsp]
+    end
+    
+    subgraph C["CONTROLLER LAYER"]
+        direction LR
+        C1[ControllerServlet]
+        C2[Session Management]
+    end
+    
+    subgraph B["BUSINESS LOGIC LAYER"]
+        direction LR
+        B1[DBHelper - Singleton]
+        B2[Validation Logic]
+    end
+    
+    subgraph D["DATA ACCESS LAYER"]
+        direction LR
+        D1[JDBC Connection]
+        D2[SQL Queries]
+    end
+    
+    subgraph DB["DATABASE LAYER"]
+        direction LR
+        DB1[(PostgreSQL)]
+    end
+    
+    P --> C
+    C --> B
+    B --> D
+    D --> DB
+    
+    style P fill:#E8EAF6,stroke:#3F51B5,stroke-width:3px,color:#000
+    style C fill:#FFF9C4,stroke:#FBC02D,stroke-width:3px,color:#000
+    style B fill:#E0F2F1,stroke:#00897B,stroke-width:3px,color:#000
+    style D fill:#FCE4EC,stroke:#D81B60,stroke-width:3px,color:#000
+    style DB fill:#E3F2FD,stroke:#1976D2,stroke-width:3px,color:#000
 ```
 
 </div>
 
+---
 ---
 
 ## 🚀 Quick Start
@@ -343,7 +415,7 @@ Admin Login:
 <table>
 <tr>
 <td width="33%">
-<img src="web/images/homepage_and_sigin.jpg" alt="Login Page" width="100%"/>
+<img src="web/images/homepage_and_sigin.png" alt="Login Page" width="100%"/>
 <p align="center"><b>Login Page</b><br/>Modern gradient design</p>
 </td>
 <td width="33%">
@@ -771,7 +843,7 @@ Special thanks to:
 
 ### ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/book-my-fun&type=Date)](https://star-history.com/#kumarpiyushraj/book-my-fun&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=kumarpiyushraj/book-my-fun&type=Date)](https://star-history.com/#kumarpiyushraj/book-my-fun&Date)
 
 ---
 
