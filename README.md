@@ -10,8 +10,6 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Servlet](https://img.shields.io/badge/Servlet-007396?style=flat-square&logo=java&logoColor=white)](https://javaee.github.io/servlet-spec/)
 
-[📖 Documentation](#documentation) • [🚀 Quick Start](#quick-start) • [💻 Demo](#demo) • [🤝 Contributing](#contributing)
-
 </div>
 
 ---
