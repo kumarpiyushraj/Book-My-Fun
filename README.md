@@ -786,7 +786,7 @@ Found a bug? [Open an issue](https://github.com/kumarpiyushraj/book-my-fun/issue
 
 ## 📄 License
 
-<div align="center">
+<div>
 
 ```
 MIT License
@@ -815,7 +815,7 @@ copies or substantial portions of the Software.
 
 <img src="https://github.com/kumarpiyushraj.png" width="100" style="border-radius: 50%"/>
 
-### Kumar Piyush
+### Kumar Piyush Raj
 
 [![GitHub](https://img.shields.io/badge/GitHub-@kumarpiyushraj-181717?style=flat-square&logo=github)](https://github.com/kumarpiyushraj)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:kmpiyushraj@gmail.com)
