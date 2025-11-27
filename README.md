@@ -826,7 +826,7 @@ copies or substantial portions of the Software.
 
 ## 🙏 Acknowledgments
 
-<div align="center">
+<div>
 
 Special thanks to:
 
@@ -838,8 +838,6 @@ Special thanks to:
 </div>
 
 ---
-
-<div align="center">
 
 ### ⭐ Star History
 
@@ -854,6 +852,8 @@ Special thanks to:
 
 ---
 
+<div align="center">
+    
 ### 🌟 Show Your Support
 
 If you found this project helpful, please consider giving it a ⭐!
