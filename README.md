@@ -827,7 +827,7 @@ Found a bug? [Open an issue](https://github.com/kumarpiyushraj/book-my-fun/issue
 
 <br/>
 
-[![GitHub Issues](https://img.shields.io/badge/Issues-Report%20Bug-red?style=for-the-badge&logo=github)](https://github.com/kumarpiyushraj/book-my-fun/issues)&nbsp;
+[![GitHub Issues](https://img.shields.io/badge/Issues-Report%20Bug-red?style=for-the-badge&logo=github)](https://github.com/kumarpiyushraj/book-my-fun/issues/new)&nbsp;
 [![GitHub Stars](https://img.shields.io/badge/Stars-Give%20a%20Star-fbbf24?style=for-the-badge&logo=github)](https://github.com/kumarpiyushraj/book-my-fun)&nbsp;
 [![Email](https://img.shields.io/badge/Email-Contact%20Developer-green?style=for-the-badge&logo=gmail)](mailto:kmpiyushraj@gmail.com)
 
