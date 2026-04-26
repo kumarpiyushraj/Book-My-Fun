@@ -62,17 +62,18 @@
 
 | # | Section | # | Section |
 |:---:|:---|:---:|:---|
-| 01 | [🌟 Overview](#-overview) | 07 | [💻 Demo](#-demo) |
-| 02 | [✨ Key Features](#-key-features) | 08 | [📊 Database Schema](#-database-schema) |
-| 03 | [🛠️ Tech Stack](#%EF%B8%8F-tech-stack) | 09 | [📁 Project Structure](#-project-structure) |
-| 04 | [🏛️ Architecture](#%EF%B8%8F-architecture) | 10 | [🔌 API Reference](#-api-reference) |
-| 05 | [🚀 Quick Start](#-quick-start) | 11 | [🎯 Roadmap](#-roadmap) |
-| 06 | [🔑 Default Credentials](#-default-credentials) | 12 | [🤝 Contributing](#-contributing) |
+| 01 | [🌟 Overview](#overview) | 07 | [💻 Demo](#demo) |
+| 02 | [✨ Key Features](#key-features) | 08 | [📊 Database Schema](#database-schema) |
+| 03 | [🛠️ Tech Stack](#tech-stack) | 09 | [📁 Project Structure](#project-structure) |
+| 04 | [🏛️ Architecture](#architecture) | 10 | [🔌 API Reference](#api-reference) |
+| 05 | [🚀 Quick Start](#quick-start) | 11 | [🎯 Roadmap](#roadmap) |
+| 06 | [🔑 Default Credentials](#default-credentials) | 12 | [🤝 Contributing](#contributing) |
 
 </div>
 
 <br/><br/>
 
+<a name="overview"></a>
 <!---------------------------------------------------------------------------->
 <!--  OVERVIEW                                                               -->
 <!---------------------------------------------------------------------------->
@@ -96,6 +97,7 @@ Book My Fun is a comprehensive entertainment booking system that streamlines tic
 
 <br/><br/>
 
+<a name="key-features"></a>
 <!---------------------------------------------------------------------------->
 <!--  KEY FEATURES                                                           -->
 <!---------------------------------------------------------------------------->
@@ -116,6 +118,7 @@ Book My Fun is a comprehensive entertainment booking system that streamlines tic
 
 <br/><br/>
 
+<a name="tech-stack"></a>
 <!---------------------------------------------------------------------------->
 <!--  TECH STACK                                                             -->
 <!---------------------------------------------------------------------------->
@@ -158,6 +161,7 @@ graph LR
 
 <br/><br/>
 
+<a name="architecture"></a>
 <!---------------------------------------------------------------------------->
 <!--  ARCHITECTURE                                                           -->
 <!---------------------------------------------------------------------------->
@@ -307,6 +311,7 @@ graph TB
 
 <br/><br/>
 
+<a name="quick-start"></a>
 <!---------------------------------------------------------------------------->
 <!--  QUICK START                                                            -->
 <!---------------------------------------------------------------------------->
@@ -452,6 +457,8 @@ open http://localhost:8080/BookMyFun/Login.jsp
 
 <br/>
 
+<a name="default-credentials"></a>
+
 ### 🔑 Default Credentials
 
 ```plaintext
@@ -462,6 +469,7 @@ Admin Login:
 
 <br/><br/>
 
+<a name="demo"></a>
 <!---------------------------------------------------------------------------->
 <!--  DEMO                                                                   -->
 <!---------------------------------------------------------------------------->
@@ -544,6 +552,7 @@ Admin Login:
 
 <br/><br/>
 
+<a name="database-schema"></a>
 <!---------------------------------------------------------------------------->
 <!--  DATABASE SCHEMA                                                        -->
 <!---------------------------------------------------------------------------->
@@ -627,6 +636,7 @@ erDiagram
 
 <br/><br/>
 
+<a name="project-structure"></a>
 <!---------------------------------------------------------------------------->
 <!--  PROJECT STRUCTURE                                                      -->
 <!---------------------------------------------------------------------------->
@@ -674,6 +684,7 @@ book-my-fun/
 
 <br/><br/>
 
+<a name="api-reference"></a>
 <!---------------------------------------------------------------------------->
 <!--  API REFERENCE                                                          -->
 <!---------------------------------------------------------------------------->
@@ -715,6 +726,7 @@ All requests route through `ControllerServlet` using the `Value` parameter.
 
 <br/><br/>
 
+<a name="roadmap"></a>
 <!---------------------------------------------------------------------------->
 <!--  ROADMAP                                                                -->
 <!---------------------------------------------------------------------------->
@@ -761,6 +773,7 @@ gantt
 
 <br/><br/>
 
+<a name="contributing"></a>
 <!---------------------------------------------------------------------------->
 <!--  CONTRIBUTING                                                           -->
 <!---------------------------------------------------------------------------->
@@ -807,6 +820,39 @@ gitGraph
 Found a bug? [Open an issue](https://github.com/kumarpiyushraj/book-my-fun/issues/new) with a clear description, steps to reproduce, expected vs actual behavior, and screenshots if applicable.
 
 <br/><br/>
+
+<!---------------------------------------------------------------------------->
+<!--  LICENSE                                                                -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2a1a,100:020a07&height=64&text=%F0%9F%93%84%20%20License%20%26%20Author&fontSize=22&fontColor=dcfce7&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
+
+```
+MIT License
+
+Copyright (c) 2024 Book My Fun
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+```
+
+<br/>
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+</div>
+
+<br/>
 
 <div align="center">
 
