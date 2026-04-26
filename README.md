@@ -1,49 +1,108 @@
-# 🎬🎮 Book My Fun
+<!---------------------------------------------------------------------------->
+<!--  HERO — Full-width waving banner                                        -->
+<!---------------------------------------------------------------------------->
 
 <div align="center">
 
-![Book My Fun Banner](https://img.shields.io/badge/Book%20My%20Fun-Entertainment%20Booking-FF6B6B?style=for-the-badge&logo=ticket&logoColor=white)
-
-**A modern, full-stack entertainment booking platform built with Java EE**
-
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![Servlet](https://img.shields.io/badge/Servlet-007396?style=flat-square&logo=java&logoColor=white)](https://javaee.github.io/servlet-spec/)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020817,20:1a0a2e,55:3b0764,85:be185d,100:FF6B6B&height=280&section=header&text=Book%20My%20Fun&fontSize=62&fontColor=ffe4f0&fontAlignY=38&fontStyle=bold&desc=A%20modern%2C%20full-stack%20entertainment%20booking%20platform%20built%20with%20Java%20EE&descAlignY=58&descSize=17&descColor=fda4af&animation=fadeIn" width="100%"/>
 
 </div>
 
----
+<!---------------------------------------------------------------------------->
+<!--  BADGES                                                                 -->
+<!---------------------------------------------------------------------------->
 
-## 🌟 Overview
+<div align="center">
+
+<br/>
+
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=fde68a&labelColor=1a0a0a&color=1a0a0a)](https://www.java.com/)&nbsp;
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=93c5fd&labelColor=071020&color=071020)](https://www.postgresql.org/)&nbsp;
+[![Servlet](https://img.shields.io/badge/Servlet-007396?style=for-the-badge&logo=java&logoColor=6ee7b7&labelColor=071020&color=071020)](https://javaee.github.io/servlet-spec/)&nbsp;
+[![Tomcat](https://img.shields.io/badge/Tomcat-9.x-0d1f38?style=for-the-badge&logo=apache-tomcat&logoColor=fcd34d&labelColor=071020&color=0d1f38)](https://tomcat.apache.org/)&nbsp;
+[![Stars](https://img.shields.io/github/stars/kumarpiyushraj/book-my-fun?style=for-the-badge&logo=github&color=fbbf24&labelColor=0d1117&label=Stars)](https://github.com/kumarpiyushraj/book-my-fun)
+
+<br/><br/>
+
+</div>
+
+<!---------------------------------------------------------------------------->
+<!--  STATS STRIP                                                            -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1628,100:0f2340&height=90&text=Movies%20%C2%B7%20Games%20%C2%B7%20Real-time%20Seats%20%C2%B7%20Digital%20Receipts%20%C2%B7%20Admin%20Dashboard&fontSize=15&fontColor=94a3b8&fontAlignY=35&desc=MVC%20%2B%20DAO%20%2B%20Singleton%20%E2%80%94%20Enterprise%20Java%20EE%20booking%20platform%20for%20end-users%20and%20administrators&descSize=14&descColor=ffe4f0&descAlignY=68" width="100%"/>
+
+<br/><br/>
+
+<!---------------------------------------------------------------------------->
+<!--  AT A GLANCE                                                            -->
+<!---------------------------------------------------------------------------->
+
+<div align="center">
+
+### 📊 &nbsp;At a Glance
+
+| 🎬 Movies | 🎮 Games | 👤 Users | 👨‍💼 Admins | 💳 Booking | 📊 Dashboard |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Browse & Book** | **Browse & Book** | **Signup / Login** | **Event Control** | **Instant Confirm** | **Live Earnings** |
+
+</div>
+
+<br/><br/>
+
+<!---------------------------------------------------------------------------->
+<!--  TABLE OF CONTENTS                                                      -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2d52,100:020d1a&height=64&text=%F0%9F%93%8B%20%20Table%20of%20Contents&fontSize=22&fontColor=e0f7ff&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
+
+<div align="center">
+
+| # | Section | # | Section |
+|:---:|:---|:---:|:---|
+| 01 | [🌟 Overview](#-overview) | 07 | [💻 Demo](#-demo) |
+| 02 | [✨ Key Features](#-key-features) | 08 | [📊 Database Schema](#-database-schema) |
+| 03 | [🛠️ Tech Stack](#%EF%B8%8F-tech-stack) | 09 | [📁 Project Structure](#-project-structure) |
+| 04 | [🏛️ Architecture](#%EF%B8%8F-architecture) | 10 | [🔌 API Reference](#-api-reference) |
+| 05 | [🚀 Quick Start](#-quick-start) | 11 | [🎯 Roadmap](#-roadmap) |
+| 06 | [🔑 Default Credentials](#-default-credentials) | 12 | [🤝 Contributing](#-contributing) |
+
+</div>
+
+<br/><br/>
+
+<!---------------------------------------------------------------------------->
+<!--  OVERVIEW                                                               -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a3d62,100:021018&height=64&text=%F0%9F%8C%9F%20%20Overview&fontSize=22&fontColor=7dd3fc&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
 
 Book My Fun is a comprehensive entertainment booking system that streamlines ticket reservations for movies and games. Built with enterprise-grade Java technologies, it offers a seamless experience for both end-users and administrators.
 
-<table>
-<tr>
-<td width="50%">
+<br/>
 
-### 👤 For Users
-- Browse movies & games
-- Real-time seat availability
-- Instant booking confirmation
-- Digital ticket receipts
+<div align="center">
 
-</td>
-<td width="50%">
+| &nbsp; | Audience | What It Provides |
+|:---:|:---|:---|
+| 👤 | **For Users** | Browse movies & games · Real-time seat availability · Instant booking confirmation · Digital ticket receipts |
+| 👨‍💼 | **For Admins** | Event management dashboard · Live earnings tracking · Inventory control · Analytics & reporting |
 
-### 👨‍💼 For Admins
-- Event management dashboard
-- Live earnings tracking
-- Inventory control
-- Analytics & reporting
+</div>
 
-</td>
-</tr>
-</table>
+<br/><br/>
 
----
+<!---------------------------------------------------------------------------->
+<!--  KEY FEATURES                                                           -->
+<!---------------------------------------------------------------------------->
 
-## ✨ Key Features
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3d2800,100:0a0700&height=64&text=%E2%9C%A8%20%20Key%20Features&fontSize=22&fontColor=fbbf24&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
 
 <div align="center">
 
@@ -55,9 +114,15 @@ Book My Fun is a comprehensive entertainment booking system that streamlines tic
 
 </div>
 
----
+<br/><br/>
 
-## 🛠️ Tech Stack
+<!---------------------------------------------------------------------------->
+<!--  TECH STACK                                                             -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e1060,100:04020f&height=64&text=%F0%9F%9B%A0%EF%B8%8F%20%20Tech%20Stack&fontSize=22&fontColor=a5b4fc&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
 
 <div align="center">
 
@@ -77,46 +142,38 @@ graph LR
 
 </div>
 
-<table align="center">
-<tr>
-<th>Category</th>
-<th>Technology</th>
-<th>Purpose</th>
-</tr>
-<tr>
-<td><b>Frontend</b></td>
-<td>HTML5, CSS3, JavaScript</td>
-<td>User Interface & Interactions</td>
-</tr>
-<tr>
-<td><b>Backend</b></td>
-<td>Java Servlets, JSP</td>
-<td>Business Logic & Views</td>
-</tr>
-<tr>
-<td><b>Database</b></td>
-<td>PostgreSQL + JDBC</td>
-<td>Data Persistence</td>
-</tr>
-<tr>
-<td><b>Server</b></td>
-<td>Apache Tomcat 9.x</td>
-<td>Application Container</td>
-</tr>
-<tr>
-<td><b>Architecture</b></td>
-<td>MVC, DAO, Singleton</td>
-<td>Design Patterns</td>
-</tr>
-</table>
-
----
-
-## 🏛️ Architecture
+<br/>
 
 <div align="center">
 
-### System Flow
+| Category | Technology | Purpose |
+|:---|:---:|:---|
+| **Frontend** | HTML5, CSS3, JavaScript | User Interface & Interactions |
+| **Backend** | Java Servlets, JSP | Business Logic & Views |
+| **Database** | PostgreSQL + JDBC | Data Persistence |
+| **Server** | Apache Tomcat 9.x | Application Container |
+| **Architecture** | MVC, DAO, Singleton | Design Patterns |
+
+</div>
+
+<br/><br/>
+
+<!---------------------------------------------------------------------------->
+<!--  ARCHITECTURE                                                           -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a3d28,100:010f06&height=64&text=%F0%9F%8F%9B%EF%B8%8F%20%20Architecture&fontSize=22&fontColor=6ee7b7&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
+
+The full system spans **five layers**: browser client → JSP views → ControllerServlet → DBHelper DAO → PostgreSQL. Every component connects — from user form submissions through session management, into the DAO, and back out to rendered HTML responses.
+
+<br/>
+
+### 🗂️ System Flow
+
+<div align="center">
+
 ```mermaid
 flowchart TD
     subgraph Client["🖥️ CLIENT LAYER"]
@@ -169,61 +226,39 @@ flowchart TD
     style Business fill:#E8F5E9,stroke:#388E3C,stroke-width:4px,color:#000
     style Model fill:#FCE4EC,stroke:#C2185B,stroke-width:4px,color:#000
     style Database fill:#E0F2F1,stroke:#00796B,stroke-width:4px,color:#000
-    style A fill:#fff,stroke:#1976D2,stroke-width:2px,color:#000
-    style B fill:#fff,stroke:#7B1FA2,stroke-width:2px,color:#000
-    style B1 fill:#fff,stroke:#7B1FA2,stroke-width:1px,color:#000
-    style B2 fill:#fff,stroke:#7B1FA2,stroke-width:1px,color:#000
-    style B3 fill:#fff,stroke:#7B1FA2,stroke-width:1px,color:#000
-    style C fill:#fff,stroke:#F57C00,stroke-width:2px,color:#000
-    style C1 fill:#fff,stroke:#F57C00,stroke-width:2px,color:#000
-    style D fill:#fff,stroke:#388E3C,stroke-width:2px,color:#000
-    style D1 fill:#fff,stroke:#388E3C,stroke-width:1px,color:#000
-    style D2 fill:#fff,stroke:#388E3C,stroke-width:1px,color:#000
-    style D3 fill:#fff,stroke:#388E3C,stroke-width:1px,color:#000
-    style E fill:#fff,stroke:#C2185B,stroke-width:2px,color:#000
-    style E1 fill:#fff,stroke:#C2185B,stroke-width:1px,color:#000
-    style E2 fill:#fff,stroke:#C2185B,stroke-width:1px,color:#000
-    style E3 fill:#fff,stroke:#C2185B,stroke-width:1px,color:#000
-    style F fill:#fff,stroke:#00796B,stroke-width:2px,color:#000
 ```
 
-### Request-Response Cycle
-```mermaid
-sequenceDiagram
-    autonumber
-    participant User as 👤 User
-    participant JSP as 📄 JSP Page
-    participant Servlet as ⚙️ ControllerServlet
-    participant DAO as 💼 DBHelper
-    participant DB as 🗄️ PostgreSQL
-    
-    User->>JSP: Submit Form Data
-    activate JSP
-    JSP->>Servlet: HTTP POST Request
-    deactivate JSP
-    activate Servlet
-    Servlet->>Servlet: Parse Parameters
-    Servlet->>DAO: Call DAO Method
-    deactivate Servlet
-    activate DAO
-    DAO->>DB: Execute SQL Query
-    activate DB
-    DB-->>DAO: Return ResultSet
-    deactivate DB
-    DAO-->>Servlet: Return Java Object
-    deactivate DAO
-    activate Servlet
-    Servlet->>Servlet: Set Session Attributes
-    Servlet->>JSP: Forward/Redirect
-    deactivate Servlet
-    activate JSP
-    JSP-->>User: Render HTML Response
-    deactivate JSP
-    
-    Note over User,DB: Average Response Time: 100-200ms
-```
+</div>
 
-### Architecture Layers
+<br/>
+
+### ⏱️ Request-Response Cycle
+
+<div align="center">
+
+| Step | From → To | Action |
+|:---:|:---|:---|
+| 1 | User → JSP Page | Submit form data via browser |
+| 2 | JSP Page → ControllerServlet | HTTP POST request dispatched |
+| 3 | ControllerServlet → self | Parse `Value` parameter · route action |
+| 4 | ControllerServlet → DBHelper | Call appropriate DAO method |
+| 5 | DBHelper → PostgreSQL | Execute SQL query · fetch ResultSet |
+| 6 | DBHelper → ControllerServlet | Return typed Java object (POJO) |
+| 7 | ControllerServlet → JSP | Set session attributes · forward/redirect |
+| 8 | JSP → User | Render HTML response |
+
+</div>
+
+<br/>
+
+> **Average Response Time: 100–200 ms**
+
+<br/>
+
+### 🏛️ Architecture Layers
+
+<div align="center">
+
 ```mermaid
 graph TB
     subgraph P["PRESENTATION LAYER"]
@@ -270,35 +305,49 @@ graph TB
 
 </div>
 
----
----
+<br/><br/>
 
-## 🚀 Quick Start
+<!---------------------------------------------------------------------------->
+<!--  QUICK START                                                            -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:003d1e,100:000a05&height=64&text=%F0%9F%9A%80%20%20Quick%20Start&fontSize=22&fontColor=4ade80&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
+
+### ☁️ Prerequisites
 
 <div align="center">
 
-### Prerequisites
-
-![JDK](https://img.shields.io/badge/JDK-8+-ED8B00?style=flat-square&logo=openjdk)
-![Tomcat](https://img.shields.io/badge/Tomcat-9.x-F8DC75?style=flat-square&logo=apache-tomcat)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12+-316192?style=flat-square&logo=postgresql)
+| Requirement | Version | Notes |
+|:---|:---:|:---|
+| **JDK** | `8+` | Java Development Kit |
+| **Apache Tomcat** | `9.x` | Application container |
+| **PostgreSQL** | `12+` | Relational database |
 
 </div>
+
+<br/>
 
 ### 📥 Installation
 
 <details open>
-<summary><b>Step 1: Clone Repository</b></summary>
+<summary><b>Step 1 — Clone Repository</b></summary>
+
+<br/>
 
 ```bash
 git clone https://github.com/kumarpiyushraj/book-my-fun.git
 cd book-my-fun
 ```
 
+<br/>
 </details>
 
 <details open>
-<summary><b>Step 2: Database Setup</b></summary>
+<summary><b>Step 2 — Database Setup</b></summary>
+
+<br/>
 
 ```sql
 -- Create database
@@ -357,10 +406,13 @@ CREATE TABLE booking (
 INSERT INTO admin VALUES ('KumarPiyush', 'admin123');
 ```
 
+<br/>
 </details>
 
 <details open>
-<summary><b>Step 3: Configure Application</b></summary>
+<summary><b>Step 3 — Configure Application</b></summary>
+
+<br/>
 
 Edit `src/java/dao/DBHelper.java`:
 
@@ -372,10 +424,13 @@ con = DriverManager.getConnection(
 );
 ```
 
+<br/>
 </details>
 
 <details open>
-<summary><b>Step 4: Deploy & Run</b></summary>
+<summary><b>Step 4 — Deploy & Run</b></summary>
+
+<br/>
 
 ```bash
 # Build project (NetBeans/Eclipse)
@@ -392,7 +447,10 @@ $TOMCAT_HOME/bin/startup.sh
 open http://localhost:8080/BookMyFun/Login.jsp
 ```
 
+<br/>
 </details>
+
+<br/>
 
 ### 🔑 Default Credentials
 
@@ -402,89 +460,97 @@ Admin Login:
 └─ Password: admin123
 ```
 
----
+<br/><br/>
 
-## 💻 Demo
+<!---------------------------------------------------------------------------->
+<!--  DEMO                                                                   -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3d1f00,100:0a0500&height=64&text=%F0%9F%92%BB%20%20Demo&fontSize=22&fontColor=fdba74&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
 
 ### 🎬 User Journey
 
+---
+
+### 1️⃣ Authentication
+
 <div align="center">
 
-#### 1️⃣ Authentication
-
-<table>
-<tr>
-<td width="33%">
-<img src="web/images/homepage_and_sigin.png" alt="Login Page" width="100%"/>
-<p align="center"><b>Login Page</b><br/>Modern gradient design</p>
-</td>
-<td width="33%">
-<img src="web/images/admin_login.png" alt="Admin Login" width="100%"/>
-<p align="center"><b>Admin Portal</b><br/>Secure admin access</p>
-</td>
-<td width="33%">
-<img src="web/images/signup.png" alt="User Signup" width="100%"/>
-<p align="center"><b>Registration</b><br/>Quick signup form</p>
-</td>
-</tr>
-</table>
-
-#### 2️⃣ Browse & Select
-
-<img src="web/images/category_selection.png" alt="Selection Page" width="100%"/>
-<p><b>Entertainment Hub</b> - Choose between Movies (cinema-themed) and Games (carnival-themed)</p>
-
-#### 3️⃣ Booking Flow
-
-<table>
-<tr>
-<td width="50%">
-<img src="web/images/available_movies.png" alt="Movie Booking" width="100%"/>
-<p align="center"><b>Movie Listings</b><br/>Detailed show information</p>
-</td>
-<td width="50%">
-<img src="web/images/available_game_after_insertion.png" alt="Game Booking" width="100%"/>
-<p align="center"><b>Game Events</b><br/>Live sports & activities</p>
-</td>
-</tr>
-</table>
-
-<img src="web/images/movie_booking.png" alt="Booking Modal" width="70%"/>
-<p><b>Interactive Booking Modal</b> - Enter event ID and ticket quantity</p>
-
-<table>
-<tr>
-<td width="50%">
-<img src="web/images/booking_success.png" alt="Confirmation" width="100%"/>
-<p align="center"><b>Booking Confirmation</b><br/>Digital ticket receipt</p>
-</td>
-<td width="50%">
-<img src="web/images/available_games.png" alt="Empty State" width="100%"/>
-<p align="center"><b>Empty State</b><br/>User-friendly messaging</p>
-</td>
-</tr>
-</table>
-
-#### 4️⃣ Admin Panel
-
-<table>
-<tr>
-<td width="50%">
-<img src="web/images/admin_available_show_insertion.png" alt="Admin Dashboard" width="100%"/>
-<p align="center"><b>Control Panel</b><br/>Event management + earnings</p>
-</td>
-<td width="50%">
-<img src="web/images/admin_success_insertion.png" alt="Success Message" width="100%"/>
-<p align="center"><b>Success Notification</b><br/>Real-time feedback</p>
-</td>
-</tr>
-</table>
+| Login Page | Admin Portal | Registration |
+|:---:|:---:|:---:|
+| <img src="web/images/homepage_and_sigin.png" alt="Login Page" width="100%"/> | <img src="web/images/admin_login.png" alt="Admin Login" width="100%"/> | <img src="web/images/signup.png" alt="User Signup" width="100%"/> |
+| Modern gradient design | Secure admin access | Quick signup form |
 
 </div>
 
+<br/>
+
 ---
 
-## 📊 Database Schema
+### 2️⃣ Browse & Select
+
+<div align="center">
+
+<sub>📌 &nbsp;**Entertainment Hub** — Choose between Movies (cinema-themed) and Games (carnival-themed)</sub>
+
+<img src="web/images/category_selection.png" alt="Selection Page" width="100%"/>
+
+</div>
+
+<br/>
+
+---
+
+### 3️⃣ Booking Flow
+
+<div align="center">
+
+| Movie Listings | Game Events |
+|:---:|:---:|
+| <img src="web/images/available_movies.png" alt="Movie Booking" width="100%"/> | <img src="web/images/available_game_after_insertion.png" alt="Game Booking" width="100%"/> |
+| Detailed show information | Live sports & activities |
+
+<br/>
+
+<sub>📌 &nbsp;**Interactive Booking Modal** — Enter event ID and ticket quantity</sub>
+
+<img src="web/images/movie_booking.png" alt="Booking Modal" width="70%"/>
+
+<br/>
+
+| Booking Confirmation | Empty State |
+|:---:|:---:|
+| <img src="web/images/booking_success.png" alt="Confirmation" width="100%"/> | <img src="web/images/available_games.png" alt="Empty State" width="100%"/> |
+| Digital ticket receipt | User-friendly messaging |
+
+</div>
+
+<br/>
+
+---
+
+### 4️⃣ Admin Panel
+
+<div align="center">
+
+| Control Panel | Success Notification |
+|:---:|:---:|
+| <img src="web/images/admin_available_show_insertion.png" alt="Admin Dashboard" width="100%"/> | <img src="web/images/admin_success_insertion.png" alt="Success Message" width="100%"/> |
+| Event management + earnings | Real-time feedback |
+
+</div>
+
+<br/><br/>
+
+<!---------------------------------------------------------------------------->
+<!--  DATABASE SCHEMA                                                        -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:003344,100:00080d&height=64&text=%F0%9F%93%8A%20%20Database%20Schema&fontSize=22&fontColor=67e8f9&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
 
 <div align="center">
 
@@ -542,20 +608,32 @@ erDiagram
     }
 ```
 
+</div>
+
+<br/>
+
 ### 🔗 Relationships
 
-```
-📌 One User → Many Bookings
-📌 One Movie → Many Bookings  
-📌 One Game → Many Bookings
-📌 One Booking → One Movie OR One Game (nullable)
-```
+<div align="center">
+
+| Relationship | Description |
+|:---|:---|
+| 📌 **One User → Many Bookings** | A single user can create multiple bookings |
+| 📌 **One Movie → Many Bookings** | A movie can be booked by multiple users |
+| 📌 **One Game → Many Bookings** | A game event can be booked by multiple users |
+| 📌 **One Booking → One Movie OR One Game** | Each booking references either a movie or game (nullable) |
 
 </div>
 
----
+<br/><br/>
 
-## 📁 Project Structure
+<!---------------------------------------------------------------------------->
+<!--  PROJECT STRUCTURE                                                      -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a2030,100:04050a&height=64&text=%F0%9F%93%81%20%20Project%20Structure&fontSize=22&fontColor=cbd5e1&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
 
 ```
 book-my-fun/
@@ -594,68 +672,37 @@ book-my-fun/
 └── 📄 README.md
 ```
 
----
+<br/><br/>
 
-## 🔌 API Reference
+<!---------------------------------------------------------------------------->
+<!--  API REFERENCE                                                          -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1e3800,100:040900&height=64&text=%F0%9F%94%8C%20%20API%20Reference&fontSize=22&fontColor=a3e635&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
+
+All requests route through `ControllerServlet` using the `Value` parameter.
+
+<br/>
 
 <div align="center">
 
-### Servlet Endpoints
+| Value Parameter | Method | Purpose | Response |
+|:---|:---:|:---|:---|
+| `UserLogin` | POST | User authentication | → UserSelectionPage.jsp |
+| `UserSignup` | POST | Register new user | → Login.jsp |
+| `BookMovie` | POST | Create movie booking | → BookingTicket.jsp |
+| `BookGame` | POST | Create game booking | → BookingTicket.jsp |
+| `AdminLogin` | POST | Admin authentication | → AdminControls.jsp |
+| `AdminControls` | POST | Add movie/game event | → AdminControls.jsp |
+| `LogoutUser` | POST | End user session | → Login.jsp |
 
-All requests route through `ControllerServlet` with `Value` parameter
+</div>
 
-<table>
-<tr>
-<th>Value Parameter</th>
-<th>Method</th>
-<th>Purpose</th>
-<th>Response</th>
-</tr>
-<tr>
-<td><code>UserLogin</code></td>
-<td>POST</td>
-<td>User authentication</td>
-<td>→ UserSelectionPage.jsp</td>
-</tr>
-<tr>
-<td><code>UserSignup</code></td>
-<td>POST</td>
-<td>Register new user</td>
-<td>→ Login.jsp</td>
-</tr>
-<tr>
-<td><code>BookMovie</code></td>
-<td>POST</td>
-<td>Create movie booking</td>
-<td>→ BookingTicket.jsp</td>
-</tr>
-<tr>
-<td><code>BookGame</code></td>
-<td>POST</td>
-<td>Create game booking</td>
-<td>→ BookingTicket.jsp</td>
-</tr>
-<tr>
-<td><code>AdminLogin</code></td>
-<td>POST</td>
-<td>Admin authentication</td>
-<td>→ AdminControls.jsp</td>
-</tr>
-<tr>
-<td><code>AdminControls</code></td>
-<td>POST</td>
-<td>Add movie/game event</td>
-<td>→ AdminControls.jsp</td>
-</tr>
-<tr>
-<td><code>LogoutUser</code></td>
-<td>POST</td>
-<td>End user session</td>
-<td>→ Login.jsp</td>
-</tr>
-</table>
+<br/>
 
-### Example Request
+### 💡 Example Request
 
 ```html
 <form action="ControllerServlet" method="POST">
@@ -666,11 +713,15 @@ All requests route through `ControllerServlet` with `Value` parameter
 </form>
 ```
 
-</div>
+<br/><br/>
 
----
+<!---------------------------------------------------------------------------->
+<!--  ROADMAP                                                                -->
+<!---------------------------------------------------------------------------->
 
-## 🎯 Roadmap
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:352000,100:080500&height=64&text=%F0%9F%8E%AF%20%20Roadmap&fontSize=22&fontColor=fcd34d&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
 
 <div align="center">
 
@@ -694,66 +745,33 @@ gantt
 
 </div>
 
-<table>
-<tr>
-<td width="50%">
-
-### 🔐 Security
-- [x] Session management
-- [ ] Password encryption
-- [ ] JWT tokens
-- [ ] 2FA authentication
-- [ ] CAPTCHA integration
-
-</td>
-<td width="50%">
-
-### ✨ Features
-- [x] Booking system
-- [ ] Payment gateway
-- [ ] Email/SMS alerts
-- [ ] User profiles
-- [ ] Reviews & ratings
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📊 Admin Tools
-- [x] Event management
-- [x] Earnings tracker
-- [ ] Analytics dashboard
-- [ ] Export reports
-- [ ] Inventory alerts
-
-</td>
-<td width="50%">
-
-### 📱 Platform
-- [x] Web application
-- [ ] Mobile app
-- [ ] PWA support
-- [ ] API services
-- [ ] Microservices
-
-</td>
-</tr>
-</table>
-
----
-
-## 🤝 Contributing
+<br/>
 
 <div align="center">
 
-We welcome contributions! Here's how you can help:
-
-[![Contribute](https://img.shields.io/badge/Contribute-Now-brightgreen?style=for-the-badge)](https://github.com/kumarpiyushraj/book-my-fun/fork)
+| 🔐 Security | ✨ Features | 📊 Admin Tools | 📱 Platform |
+|:---|:---|:---|:---|
+| ✅ Session management | ✅ Booking system | ✅ Event management | ✅ Web application |
+| ⬜ Password encryption | ⬜ Payment gateway | ✅ Earnings tracker | ⬜ Mobile app |
+| ⬜ JWT tokens | ⬜ Email/SMS alerts | ⬜ Analytics dashboard | ⬜ PWA support |
+| ⬜ 2FA authentication | ⬜ User profiles | ⬜ Export reports | ⬜ API services |
+| ⬜ CAPTCHA integration | ⬜ Reviews & ratings | ⬜ Inventory alerts | ⬜ Microservices |
 
 </div>
 
-### 📝 Contribution Guidelines
+<br/><br/>
+
+<!---------------------------------------------------------------------------->
+<!--  CONTRIBUTING                                                           -->
+<!---------------------------------------------------------------------------->
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:2a0040,100:07000f&height=64&text=%F0%9F%A4%9D%20%20Contributing&fontSize=22&fontColor=d8b4fe&fontAlignY=52&fontAlign=50" width="100%"/>
+
+<br/>
+
+We welcome contributions! Here's the recommended workflow:
+
+<br/>
 
 ```mermaid
 gitGraph
@@ -768,104 +786,58 @@ gitGraph
     commit id: "Release"
 ```
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add AmazingFeature'`)
-4. **Push** to branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
+<br/>
+
+<div align="center">
+
+| Step | Action |
+|:---:|:---|
+| 1 | **Fork** the repository |
+| 2 | **Create** a feature branch — `git checkout -b feature/AmazingFeature` |
+| 3 | **Commit** your changes — `git commit -m 'Add AmazingFeature'` |
+| 4 | **Push** to branch — `git push origin feature/AmazingFeature` |
+| 5 | **Open** a Pull Request |
+
+</div>
+
+<br/>
 
 ### 🐛 Report Issues
 
-Found a bug? [Open an issue](https://github.com/kumarpiyushraj/book-my-fun/issues/new) with:
-- Clear description
-- Steps to reproduce
-- Expected vs actual behavior
-- Screenshots (if applicable)
+Found a bug? [Open an issue](https://github.com/kumarpiyushraj/book-my-fun/issues/new) with a clear description, steps to reproduce, expected vs actual behavior, and screenshots if applicable.
 
----
-
-## 📄 License
-
-<div>
-
-```
-MIT License
-
-Copyright (c) 2024 Book My Fun
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-</div>
-
----
-
-## 👨‍💻 Author
+<br/><br/>
 
 <div align="center">
 
-<img src="https://github.com/kumarpiyushraj.png" width="100" style="border-radius: 50%"/>
+**Need Help or Have Questions?**
 
-### Kumar Piyush Raj
+<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-@kumarpiyushraj-181717?style=flat-square&logo=github)](https://github.com/kumarpiyushraj)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=flat-square&logo=gmail)](mailto:kmpiyushraj@gmail.com)
-
-</div>
-
----
-
-## 🙏 Acknowledgments
-
-<div>
-
-Special thanks to:
-
-- **Java EE Community** - For comprehensive documentation
-- **PostgreSQL Team** - For robust database system
-- **Apache Tomcat** - For reliable servlet container
-- **Stack Overflow** - For community support
+[![GitHub Issues](https://img.shields.io/badge/Issues-Report%20Bug-red?style=for-the-badge&logo=github)](https://github.com/kumarpiyushraj/book-my-fun/issues)&nbsp;
+[![GitHub Stars](https://img.shields.io/badge/Stars-Give%20a%20Star-fbbf24?style=for-the-badge&logo=github)](https://github.com/kumarpiyushraj/book-my-fun)&nbsp;
+[![Email](https://img.shields.io/badge/Email-Contact%20Developer-green?style=for-the-badge&logo=gmail)](mailto:kmpiyushraj@gmail.com)
 
 </div>
 
----
+<br/><br/>
 
-### ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=kumarpiyushraj/book-my-fun&type=Date)](https://star-history.com/#kumarpiyushraj/book-my-fun&Date)
-
----
-
-### 📊 Repository Stats
-
-![GitHub repo size](https://img.shields.io/github/repo-size/kumarpiyushraj/book-my-fun?style=flat-square)
-![GitHub code size](https://img.shields.io/github/languages/code-size/kumarpiyushraj/book-my-fun?style=flat-square)
-
----
+<!---------------------------------------------------------------------------->
+<!--  FOOTER                                                                 -->
+<!---------------------------------------------------------------------------->
 
 <div align="center">
-    
-### 🌟 Show Your Support
 
-If you found this project helpful, please consider giving it a ⭐!
+**Built with ❤️ and ☕ &nbsp;·&nbsp; Java EE &nbsp;·&nbsp; Apache Tomcat 9 &nbsp;·&nbsp; PostgreSQL**
 
-[![GitHub stars](https://img.shields.io/github/stars/kumarpiyushraj/book-my-fun?style=social)](https://github.com/yourusername/book-my-fun/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/kumarpiyushraj/book-my-fun?style=social)](https://github.com/yourusername/book-my-fun/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/kumarpiyushraj/book-my-fun?style=social)](https://github.com/yourusername/book-my-fun/watchers)
+<br/>
 
----
+[![GitHub stars](https://img.shields.io/github/stars/kumarpiyushraj/book-my-fun?style=for-the-badge&logo=github&color=fbbf24&labelColor=0d1117&label=Star%20this%20repo)](https://github.com/kumarpiyushraj/book-my-fun/stargazers)
 
-**Made with ❤️ and ☕ using Java EE**
+<br/>
 
-[Back to Top](#-book-my-fun)
+*© 2024 Kumar Piyush Raj &nbsp;·&nbsp; [GitHub @kumarpiyushraj](https://github.com/kumarpiyushraj)*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B6B,40:be185d,100:020817&height=160&section=footer" width="100%"/>
 
 </div>
