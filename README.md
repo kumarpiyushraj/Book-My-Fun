@@ -821,39 +821,6 @@ Found a bug? [Open an issue](https://github.com/kumarpiyushraj/book-my-fun/issue
 
 <br/><br/>
 
-<!---------------------------------------------------------------------------->
-<!--  LICENSE                                                                -->
-<!---------------------------------------------------------------------------->
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f2a1a,100:020a07&height=64&text=%F0%9F%93%84%20%20License%20%26%20Author&fontSize=22&fontColor=dcfce7&fontAlignY=52&fontAlign=50" width="100%"/>
-
-<br/>
-
-```
-MIT License
-
-Copyright (c) 2024 Book My Fun
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
-<br/>
-
-<div align="center">
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
-</div>
-
-<br/>
-
 <div align="center">
 
 **Need Help or Have Questions?**
